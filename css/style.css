@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+html {
+    background-image: url('../img/crowd.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.keys{
+    
+    display: flex;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+
+.key {
+    border: 3px solid greenyellow;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
+    width: 60px;
+    text-align: center;
+    color: greenyellow;
+    font-size: 20px;
+    transition: all .07s ease;
+    text-shadow: 0 0 3px greenyellow;
+    background: rgba(0,0,0,0.4);
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: gold;
+    box-shadow: 0 0 1rem gold;
+  }
+
+kbd{
+    display: block;
+}
+
