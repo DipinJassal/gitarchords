@@ -1,3 +1,3 @@
 # gitarchords
 
-click the keys to play the chords
+click A to J keys to play chords
